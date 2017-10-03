@@ -1,0 +1,90 @@
+@font-face{
+
+font-family: 'hinted-PathwayGothicOne-Regular';
+src: url('../fonts/hinted-PathwayGothicOne-Regular.eot');
+src: url('../fonts/hinted-PathwayGothicOne-Regular.eot?iefix') format('eot'),
+url('../fonts/hinted-PathwayGothicOne-Regular.woff') format('woff'),
+url('../fonts/hinted-PathwayGothicOne-Regular.ttf') format('truetype'),
+url('../fonts/hinted-PathwayGothicOne-Regular.svg#webfont') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+
+div.wrapper {
+  box-sizing: border-box;
+  width: 480px;
+  height: auto;
+  margin: auto;
+  padding: 37px;
+  border: 2px  #afaeae;
+  box-shadow: 0px 0px 4px 4px #DCDCDC;
+}
+div.head {
+  margin-top: 59px;
+  margin-bottom: 32px;
+}
+h2.table {
+  font-family: Pathway Gothic One Regular, sans-serif;
+  font-stretch: condensed;
+  font-weight: lighter;
+  color: #263555;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 406px;
+  height: 98px;
+}
+h4.txt {
+  font-family: Arial regular, Pathway Gothic One;
+  font-size:14px;
+  margin-bottom: 18px;
+  color: #263555;
+  line-height: 19px;
+}
+p.paragraph {
+  font-family: Arial regular, Pathway Gothic One;
+  font-size: 12px;
+  line-height: 17px;
+}
+hr {
+    border: none;
+    background-color: #dedbdb;
+    height: 1px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+ul.list {
+  list-style-type: none;
+  list-style-image: url("../img/pointer.png");
+}
+div.left {
+  line-height: 35px;
+}
+
+.left {
+	display: inline-block;
+  width: 49%;
+}
+.right {
+	display: inline-block;
+}
+
+li.top {
+  height: 0;
+  list-style-type: none;
+  list-style-image: url("../img/1.png");
+
+}
+li.middle {
+  height: 0;
+  list-style-type: none;
+  list-style-image: url("../img/2.png");
+
+}
+li.bottom {
+  height: 0;
+  list-style-type: none;
+  list-style-image: url("../img/3.png");
+}
