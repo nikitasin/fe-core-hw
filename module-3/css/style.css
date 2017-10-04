@@ -60,22 +60,21 @@ ul.list {
   list-style-image: url("../img/pointer.png");
 }
 div.left {
+  display: inline-block;
+  width: 49%;
   line-height: 35px;
 }
-
-.left {
-	display: inline-block;
-  width: 49%;
-}
-.right {
-	display: inline-block;
+div.right {
+  display: inline-block;
+  position: absolute;
+  line-height: 35px;
+  padding-left: 23px;
 }
 
 li.top {
   height: 0;
   list-style-type: none;
   list-style-image: url("../img/1.png");
-
 }
 li.middle {
   height: 0;
