@@ -24,7 +24,7 @@ div.head {
   margin-top: 59px;
   margin-bottom: 32px;
 }
-h2.table {
+.table {
   font-family: Pathway Gothic One Regular, sans-serif;
   font-stretch: condensed;
   font-weight: lighter;
@@ -36,10 +36,11 @@ img {
   width: 406px;
   height: 98px;
 }
-h4.txt {
+.txt {
   font-family: Arial regular, Pathway Gothic One;
   font-size:14px;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
+  font-weight: bold;
   color: #263555;
   line-height: 19px;
 }
@@ -55,35 +56,77 @@ hr {
     margin-top: 52px;
     margin-bottom: 52px;
 }
-ul.list {
+
+.left {
   list-style-type: none;
-  list-style-image: url("../img/pointer.png");
-}
-div.left {
   display: inline-block;
   width: 49%;
   line-height: 35px;
+  padding-left: 30px;  
 }
-div.right {
+.right {
+  list-style-type: none;
   display: inline-block;
   position: absolute;
   line-height: 35px;
-  padding-left: 23px;
+  padding-left: 0px;
+}
+.before:before {
+  content: url(../img/pointer.png);
+  /*margin-left: 14px;*/
 }
 
-li.top {
+li.circle {
   height: 0;
   list-style-type: none;
-  list-style-image: url("../img/1.png");
 }
-li.middle {
+li.circle2 {
   height: 0;
   list-style-type: none;
-  list-style-image: url("../img/2.png");
-
 }
-li.bottom {
+li.circle3 {
   height: 0;
   list-style-type: none;
-  list-style-image: url("../img/3.png");
+}
+li.circle:before {
+  content: "1";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -37px;
+  margin-top: -20px;
+  width: 27px;
+  height: 23px;
+  border-radius: 50%;
+  text-align:center;
+  padding-top: 5px;
+  background: #38afe5;
+  color: #fff;
+}
+li.circle2:before {
+  content: "2";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -37px;
+  margin-top: -20px;
+  width: 27px;
+  height: 23px;
+  border-radius: 50%;
+  text-align:center;
+  padding-top: 5px;
+  background: #38afe5;
+  color: #fff;
+}
+li.circle3:before {
+  content: "3";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -37px;
+  margin-top: -20px;
+  width: 27px;
+  height: 23px;
+  border-radius: 50%;
+  text-align:center;
+  padding-top: 5px;
+  background: #38afe5;
+  color: #fff;
 }
