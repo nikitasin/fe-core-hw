@@ -155,7 +155,7 @@ padding-left: 0px;
 }
 .before:before {
 content: "";
-background: url(../img/pointer.png) no-repeat;
+background: url(../images/pointer.png) no-repeat;
 background-size: contain;
 background-position: center;
 width: 10px;
@@ -166,7 +166,7 @@ margin-top: 13px;
 position: absolute;
 }
 .inside-img {
-background: url(../img/85.png) no-repeat;
+background: url(../images/85.png) no-repeat;
 margin-top: ;
 width: 213px;
 height: 223px;
