@@ -1,27 +1,28 @@
-@font-face{
-
-font-family: 'hinted-PathwayGothicOne-Regular';
-src: url('../fonts/hinted-PathwayGothicOne-Regular.eot');
-src: url('../fonts/hinted-PathwayGothicOne-Regular.eot?iefix') format('eot'),
-url('../fonts/hinted-PathwayGothicOne-Regular.woff') format('woff'),
-url('../fonts/hinted-PathwayGothicOne-Regular.ttf') format('truetype'),
-url('../fonts/hinted-PathwayGothicOne-Regular.svg#webfont') format('svg');
-font-weight: normal;
-font-style: normal;
+:root {
+--color:#263555;
+--font-size: 14px;
+--width: 641px;
 }
-div.wrapper {
+.wrapper-header {
+position: relative;
+margin: auto;
+background: url("57.png");
+padding: 100px;
+}
+.wrapper {
 box-sizing: border-box;
 position: relative;
 width: 1025px;
-height: 1297px;
 margin: auto;
-padding-left: 86px;
 padding-top: 117px;
+padding-right: 36px;
+padding-left: 86px;
+padding-bottom: 88px;
+background: #fff;
 }
 .top-left {
 display: inline-block;
-width: 641px;
-height: 482px;
+width: var(--width);
 }
 .top-right {
 display: inline-block;
@@ -29,14 +30,12 @@ position: relative;
 top: -5px;
 margin-left: 51px;
 width: 206px;
-height: 482px;
 }
-
 .table {
 font-family: Pathway Gothic One Regular, sans-serif;
 font-stretch: condensed;
 font-weight: lighter;
-color: #263555;
+color: var(--color);
 }
 img {
 display: inline-block;
@@ -46,27 +45,25 @@ margin-bottom: 23px;
 width: 362px;
 height: 281px;
 }
-.cliar:after {
-content: "";
-display:table;
-clear:both;
+.clearfix:after {
+clear: both;
+content:"";
+display: table;
+/*height: 0;*/
 }
 .botom-left {
 display: inline-block;
-width: 641px;
-height: 295px;
+width: var(--width);
 }
 .botom-right {
 display: inline-block;
 position: absolute;
 margin-left: 51px;
-top: 665px;
 width: 206px;
-height: 344px;
 }
 .img-txt {
 font-family: Arial regular, Pathway Gothic One;
-font-size:14px;
+font-size: var(--font-size);
 margin-bottom: 0px;
 font-weight: bold;
 color: #263555;
@@ -74,36 +71,31 @@ line-height: 19px;
 }
 .txt {
 font-family: Arial regular, Pathway Gothic One;
-font-size:14px;
-margin-bottom: 0px;
+font-size: var(--font-size);
 font-weight: bold;
 color: #263555;
 line-height: 19px;
 }
-.txt1 {
+.author-quote {
 text-align:  center;
 margin-top: 240px;
 font-family: Arial regular, Pathway Gothic One;
-font-size:14px;
+font-size: var(--font-size);
 margin-bottom: 0px;
 font-weight: bold;
-color: #263555;
+color: var(--color);
 line-height: 19px;
 }
 .inside {
 font-family: Arial regular, Pathway Gothic One;
-font-size:14px;
-margin-top: 23px;
-margin-bottom: 0px;
-margin-left: 23px;
-margin-right: 23px;
+font-size: var(--font-size);
+margin: 23px;
 font-weight: bold;
-color: #263555;
+color: var(--color);
 background-color: #fcfafa;
 line-height: 19px;
-quotes: "&#8243;";
 }
-div.inside:before {
+.inside:before {
 content: "\22";
 margin-left: -10px;
 margin-top: 0px;
@@ -111,7 +103,7 @@ position: absolute;
 font-family: Arial;
 font-size: 15px;
 }
-div.inside:after {
+.inside:after {
 content: "\22";
 margin-left: 2px;
 margin-top: 0px;
@@ -119,13 +111,12 @@ position: absolute;
 font-family: Arial;
 font-size: 15px;
 }
-
-p.paragraph {
+.paragraph {
 font-family: Arial regular, Pathway Gothic One;
 font-size: 12px;
 line-height: 17px;
 }
-div.paragraph1 {
+.paragraph1 {
 margin-top: 19px;
 text-align:  center;
 font-family: Arial regular, Pathway Gothic One;
@@ -136,9 +127,9 @@ hr {
 border: none;
 background-color: #dedbdb;
 height: 1px;
-margin-bottom: 52px;
+margin-top: 55px;
+margin-bottom: 57px;
 }
-
 .left {
 list-style-type: none;
 display: inline-block;
@@ -153,7 +144,7 @@ position: absolute;
 line-height: 35px;
 padding-left: 0px;
 }
-.before:before {
+.table-botom:before {
 content: "";
 background: url(../images/pointer.png) no-repeat;
 background-size: contain;
@@ -173,27 +164,25 @@ height: 223px;
 display: inline-block;
 position: inherit;
 }
-li.circle {
-  height: 0;
-  list-style-type: none;
+li {
+list-style-type: none;
 }
 li.circle:before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: -37px;
-  margin-top: -20px;
-  width: 27px;
-  height: 23px;
-  border-radius: 50%;
-  text-align:center;
-  padding-top: 5px;
-  background: #38afe5;
-  color: #fff;
+position: absolute;
+counter-increment: heading;
+content:  counter(heading) ; 
+display: inline-block;
+vertical-align: middle;
+margin-left: -37px;
+margin-top: 10px;
+width: 27px;
+height: 23px;
+border-radius: 50%;
+text-align:center;
+padding-top: 5px;
+background: #38afe5;
+color: #fff;
 }
 body {
-    counter-reset:heading;
-   }
-li.circle:before {
-    counter-increment: heading;
-    content:  counter(heading) ; 
+counter-reset:heading;
+}
