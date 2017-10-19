@@ -93,7 +93,7 @@ ul.submenu {
     display: none;
     position: absolute;
     top: 130px;
-    left: 198px;
+    left: 190px;
     background-color: white;
     border: 1px;
     border-radius: 10%;
@@ -104,13 +104,17 @@ ul.submenu li a {
     color: #6b7488;
     text-decoration: none;
 }
+.submenu1 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 .color1:before {
     display: none;
     content: '';
     position: absolute;
     top: 110px;
-    left: 207px;
+    left: 204px;
     border: 10px solid transparent;
     border-bottom-color: #fcfafa;
 }
@@ -189,6 +193,12 @@ ul.menu li:hover a.color1:before {
     left: 8px;
     top: 40px;
 }
+.left1:hover {
+    background: #00d3ff;
+}
+.right1:hover {
+    background: #00d3ff;
+}
 
 .right1 {
     display: inline-block;
@@ -223,7 +233,7 @@ ul.menu li:hover a.color1:before {
 .destinations {
     position: relative;
     width: 901px;
-    /*height: 341px;*/
+    height: 341px;
     margin-top: 56px;
     margin-left: 61px;
     margin-left: 61px;
