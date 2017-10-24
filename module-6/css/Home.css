@@ -462,8 +462,7 @@ ul.menu li:hover a.color1:before {
 }
 
 .newsletter-email {
-    display: flex;
-    justify-content: space-around;
+    margin-left: 15px;
     margin-bottom: 47px;
 }
 
