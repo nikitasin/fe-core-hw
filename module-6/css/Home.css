@@ -357,22 +357,22 @@ ul.menu li:hover a.color1:before {
 }
 
 .in-head {
-    display: inline;
+     display: inline;
+  font-family: 'Pathway Gothic One';
+    font-size: 19px;
     border: 2px solid #e1dfdf;
     margin-right: -3px;
     margin-left: -3px;
-    padding: 34px;
+    padding: 25px;
     padding-top: 9px;
     padding-bottom: 9px;
 }
 
 .in-head:hover {
-    margin-bottom: -37px;
     color: #38afe5;
 }
 
 .in-head1 {
-    display: inline-block;
     margin-left: 64px;
 }
 
