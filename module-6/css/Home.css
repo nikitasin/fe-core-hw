@@ -1,3 +1,15 @@
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 45%;
+  }
+}
+
 .wrapper {
     position: relative;
     margin: 0 auto;
@@ -232,12 +244,13 @@ ul.menu li:hover a.color1:before {
     display: inline-block;
     width: 287px;
     height: 270px;
-    margin-top: 48px;
-    margin-right: 15px;
+    overflow:hidden;
 }
 
 .destinations {
     position: relative;
+    display: flex;
+    justify-content: space-between;
     width: 901px;
     height: 341px;
     margin-top: 56px;
@@ -245,7 +258,8 @@ ul.menu li:hover a.color1:before {
     padding-bottom: 136px;
 }
 
-.first-wrapper {
+.caption-dectinanions {
+    margin-left: 60px;
     font-family: 'Pathway Gothic One';
     font-size: 23px;
 }
@@ -271,6 +285,12 @@ ul.menu li:hover a.color1:before {
 .left:hover .venice-block {
     display: block;
 }
+
+.venice-block {
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
 
 .txt {
     font-family: 'Open Sans Condensed';
@@ -306,16 +326,73 @@ ul.menu li:hover a.color1:before {
 }
 
 .middle {
+    position: relative;
     display: inline-block;
     width: 287px;
     height: 270px;
-    margin-right: 15px;
+      overflow:hidden;
+}
+.usa-block {
+    position: absolute;
+    display: inline-block;
+    display: none;
+    width: 130px;
+    height: 248px;
+    padding-top: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+    background: #193149;
+}
+.middle:hover .usa-block {
+    display: block;
+}
+.block-u {
+    font-family: 'Areal';
+    font-size: 11px;
+    line-height: 15px;
+    width: 128px;
+    height: 130px;
+    padding-bottom: 30px;
+}
+.usa-block {
+    animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .right {
+    position: relative;
     display: inline-block;
     width: 287px;
     height: 270px;
+      overflow:hidden;
+}
+.paris-block {
+    position: absolute;
+    display: inline-block;
+    display: none;
+    width: 130px;
+    height: 248px;
+    padding-top: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+    background: #193149;
+}
+.right:hover .paris-block {
+    display: block;
+}
+.block-p {
+    font-family: 'Areal';
+    font-size: 11px;
+    line-height: 15px;
+    width: 128px;
+    height: 130px;
+    padding-bottom: 30px;
+}
+.paris-block {
+    animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .to-top {

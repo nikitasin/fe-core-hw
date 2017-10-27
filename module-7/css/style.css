@@ -1,0 +1,20 @@
+.wrapper {
+border:2px solid  #e1dfdf;
+width: 500px;
+}
+h1 {
+    font-family: 'Pathway Gothic One';
+    font-size: 23px;
+display: flex;
+justify-content: center;
+}
+
+.maps {
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+}
+
+.table {
+    padding: 20px;
+}
