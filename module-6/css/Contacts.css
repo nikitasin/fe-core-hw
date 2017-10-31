@@ -1,21 +1,7 @@
-:root {
-    --color: #263555;
-    --font-size: 15px;
-    --width: 641px;
-}
-
 .wrapper {
     position: relative;
     background-size: cover;
     background: url("../images/57.png");
-}
-
-.wrapper-content {
-    position: relative;
-    margin: 0 auto;
-    width: 1024px;
-    height: auto;
-    background: #fff;
 }
 
 .header {
@@ -32,18 +18,18 @@
 }
 
 .left-m {
-    margin: 101px 79px 0px 0px;
-
+    margin-top: 101px;
+    margin-right: 79px;
     float: right;
-    font-family: 'Pathway Gothic One';
+    font-family: 'Pathway Gothic One', sans-serif;
     font-size: 21px;
 }
 
 .right-m {
-    margin: 101px 0px 0px 79px;
-
+    margin-top: 101px;
+    margin-left: 79px;
     float: left;
-    font-family: 'Pathway Gothic One';
+    font-family: 'Pathway Gothic One', sans-serif;
     font-size: 21px;
 }
 
@@ -53,8 +39,8 @@
     position: absolute;
     display: inline-block;
     vertical-align: middle;
-    margin: 40px 0px 0px 442px;
-
+    margin-top: 40px;
+    margin-left: 442px;
     width: 138px;
     height: 138px;
     border-radius: 50%;
@@ -92,7 +78,7 @@ ul.menu li h2 a {
 }
 
 ul.submenu {
-    font-family: 'Pathway Gothic One';
+    font-family: 'Pathway Gothic One', sans-serif;
     font-size: 16px;
     line-height: 25px;
     display: none;
@@ -111,7 +97,8 @@ ul.submenu li a {
 }
 
 .submenu1 {
-    padding: 0px 5px 0px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .color1:before {
@@ -145,142 +132,143 @@ ul.menu li:hover a.color1:before {
     margin-bottom: 27px;
 }
 
-/*_______________________Начинка______________________________*/
 
-.wrap {
+/*_____________________________________________*/
+
+.wrapper-main {
+    padding-top: 100px;
+    position: relative;
+    margin: auto;
+    width: 1024px;
+    height: auto;
+    background: #fff;
+}
+
+.wrap-flex {
     display: flex;
 }
 
-.top-left {
+.caption {
+    margin-right: 160px;
+    margin-left: 60px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    width: 680px;
-    margin-right: 80px;
-}
 
-.caption-top {
-    display: flex;
-    justify-content: space-between;
-    font-family: Pathway Gothic One;
+    font-family: 'Pathway Gothic One', sans-serif;
     font-size: 32px;
-    margin: 0px 190px 0px 60px;
-    padding: 116px 0px 50px 0px;
     color: #263555;
 }
 
-img {
-    width: 132px;
-    height: 114px;
+.map {
     display: inline-block;
-    float: left;
-    margin: 0px 20px 20px 0px;
+    width: 440px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 32px;
+    margin-left: 60px;
+    margin-bottom: 48px;
+    color: #263555;
 }
 
-.block-tour {
-    width: 280px;
+iframe {
+    width: 440px;
+    height: 414px;
+}
+
+.wrapper-contacts {
+    font-family: arial, sans-serif;
     display: inline-block;
-    margin: 0px 0px 36px 60px;
+    width: 194px;
+    height: 414px;
+    margin-left: 20px;
+    color: #666565;
+}
+
+.address {
+    width: 134px font-size: 14px;
+    padding-top: 6px;
+    padding-bottom: 26px;
 }
 
 .list {
-    font-family: 'Arial';
-}
-
-.list-1 {
-    font-size: 12px;
-    padding-bottom: 17px;
-}
-
-.list-2 {
-    font-size: 10px;
-    padding-bottom: 7px;
-}
-
-.list-3 {
     font-size: 13px;
-    padding-bottom: 17px;
-    color: #60bbe9;
+    line-height: 19px;
 }
 
-button {
-    border-radius: 10%;
+.list1 {
+    font-size: 13px;
+    text-align: right;
 }
 
-.top-right {
-    width: 212px;
-    /*margin-right: 40px;*/
+.list2 {
+    font-size: 13px;
+    padding-bottom: 54px;
 }
 
-.top-right>div {
-    margin: 0px 0px 10px 0px;
-    font-family: Arial;
-    font-size: 10px;
+.list2 a:hover {
+    color: #fa7e7e;
 }
 
-select {
-    font-family: Arial;
-    font-size: 10px;
-    margin: 0px 0px 2px 0px;
-    padding: 2px 0 2px 0;
-    width: 200px;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    background-image: url("../images/86.png");
-    background-position: right center;
-    background-repeat: no-repeat;
-    border: 2px solid #d1cccc;
+.email {
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    color: #666565;
 }
 
-option {
-    font-family: Arial;
-    font-size: 10px;
+.contact-user {
+    display: inline-block;
+    width: 220px;
+    height: 414px;
+    margin-left: 36px;
+}
+
+.name {
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    margin-bottom: 17px;
+    background: #fcfafa;
+    border: 2px solid #d4d0d0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.attachment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    background: #fcfafa;
+    border: none;
+    padding: 7px;
+    outline: none;
 }
 
 textarea {
-    margin-bottom: 19px;
-    font-family: Arial;
-    font-size: 10px;
-    width: 194px;
-    background: #e3e2e2;
-    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    background: #fcfafa;
+    border: none;
     resize: none;
-    border: 2px solid #d1cccc;
+    outline: none;
 }
 
-::-webkit-input-placeholder {
-    color: #fff;
+.button-contact {
+    display: flex;
+    justify-content: flex-end;
 }
-
-::-moz-placeholder {
-    color: #fff;
-}
-
-.Search {
-    margin-bottom: 7px;
-}
-
-.title-bottom>h3 {
-    font-family: Pathway Gothic One;
-    font-size: 32px;
-    color: #263555;
-    margin-bottom: 26px;
-}
-
-.subtitle {
-    color: #60bbe9;
-}
-
-.menu-l {
-    padding-top: 15px;
-}
-
-/*_______________________Начинка______________________________*/
 
 .to-top {
     position: fixed;
-    right: 180px;
-    bottom: 300px;
+    right: 175px;
+    bottom: 250px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -294,45 +282,37 @@ textarea {
     margin: 10px;
 }
 
-.gallery {
-    margin: auto;
-    width: 902px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .bottom-gallery {
     margin: auto;
     width: 1024px;
     background: #30455b;
     color: #fff;
-    padding: 43px 0px 32px 0px;
+    padding-top: 43px;
+    padding-bottom: 32px;
     display: flex;
     justify-content: space-around;
 }
 
 .bottom-txt {
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
     line-height: 27px;
 }
 
 .bottom-txt1 {
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
     padding-left: 79px;
     line-height: 27px;
 }
 
-
 .bottom-txt2 {
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
     line-height: 27px;
     margin-right: 100px;
 }
 
-.email {
+.email-footer {
     font-family: 'Arial';
+    text-decoration: none;
 }
 
 .footer {
@@ -347,9 +327,11 @@ textarea {
     display: flex;
 }
 
-
 li.nav_item {
-    margin: 26px 6px 24px 6px;
+    margin-top: 26px;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 24px;
     height: 40px;
     flex-basis: 40px;
 }

@@ -1,20 +1,18 @@
 @keyframes slidein {
-  from {
-    margin-left: -100%;
-    width: 100%; 
-  }
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
 
-  to {
-    margin-left: 0%;
-    width: 45%;
-  }
+    to {
+        margin-left: 0%;
+        width: 45%;
+    }
 }
 
 .wrapper {
     position: relative;
-    margin: 0 auto;
-    width: 1300px;
-    height: auto;
+    background-size: cover;
     background: url("../images/57.png");
 }
 
@@ -128,7 +126,7 @@ ul.submenu li a {
     content: '';
     position: absolute;
     top: 110px;
-    left: 207px;
+    left: 204px;
     border: 10px solid transparent;
     border-bottom-color: #fcfafa;
 }
@@ -244,7 +242,7 @@ ul.menu li:hover a.color1:before {
     display: inline-block;
     width: 287px;
     height: 270px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .destinations {
@@ -287,7 +285,7 @@ ul.menu li:hover a.color1:before {
 
 .venice-block {
     animation-duration: 3s;
-  animation-name: slidein;
+    animation-name: slidein;
 }
 
 
@@ -329,8 +327,9 @@ ul.menu li:hover a.color1:before {
     display: inline-block;
     width: 287px;
     height: 270px;
-      overflow:hidden;
+    overflow: hidden;
 }
+
 .usa-block {
     position: absolute;
     display: inline-block;
@@ -343,9 +342,11 @@ ul.menu li:hover a.color1:before {
     color: #fff;
     background: #193149;
 }
+
 .middle:hover .usa-block {
     display: block;
 }
+
 .block-u {
     font-family: 'Areal';
     font-size: 11px;
@@ -354,9 +355,10 @@ ul.menu li:hover a.color1:before {
     height: 130px;
     padding-bottom: 30px;
 }
+
 .usa-block {
     animation-duration: 3s;
-  animation-name: slidein;
+    animation-name: slidein;
 }
 
 .right {
@@ -364,8 +366,9 @@ ul.menu li:hover a.color1:before {
     display: inline-block;
     width: 287px;
     height: 270px;
-      overflow:hidden;
+    overflow: hidden;
 }
+
 .paris-block {
     position: absolute;
     display: inline-block;
@@ -378,9 +381,11 @@ ul.menu li:hover a.color1:before {
     color: #fff;
     background: #193149;
 }
+
 .right:hover .paris-block {
     display: block;
 }
+
 .block-p {
     font-family: 'Areal';
     font-size: 11px;
@@ -389,9 +394,10 @@ ul.menu li:hover a.color1:before {
     height: 130px;
     padding-bottom: 30px;
 }
+
 .paris-block {
     animation-duration: 3s;
-  animation-name: slidein;
+    animation-name: slidein;
 }
 
 .to-top {
@@ -433,8 +439,8 @@ ul.menu li:hover a.color1:before {
 }
 
 .in-head {
-     display: inline;
-  font-family: 'Pathway Gothic One';
+    display: inline;
+    font-family: 'Pathway Gothic One';
     font-size: 19px;
     border: 2px solid #e1dfdf;
     margin-right: -3px;
@@ -516,30 +522,33 @@ ul.menu li:hover a.color1:before {
 
 .newsletter {
     position: absolute;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     top: -2px;
     left: -2px;
     display: flex;
     justify-content: center;
-    font-family: 'Open Sans Condensed' bold;
+    font-family: 'Open Sans Condensed';
     font-size: 19px;
     width: 286px;
     border: 2px solid #e1dfdf;
 }
 
 .newsletter-p {
-    display: flex;
-    justify-content: center;
     font-family: Arial;
     font-size: 15px;
-    margin-top: 74px;
-    margin-bottom: 24px;
+    margin: 74px 0px 24px 15px;
+}
+
+.wrap {
+    width: 250px;
 }
 
 .newsletter-email {
-    margin-left: 15px;
-    margin-bottom: 47px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 47px 15px;
 }
 
 .newsletter-table {
@@ -550,14 +559,14 @@ ul.menu li:hover a.color1:before {
 }
 
 .newsletter-table:before {
-    display:flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     content: url(../images/37.png);
     position: absolute;
     text-align: center;
     left: 18px;
-    margin-top: 5px;
+    margin-top: 9px;
     width: 13px;
     height: 13px;
     border-radius: 50%;

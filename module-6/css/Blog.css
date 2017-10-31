@@ -1,7 +1,6 @@
 .wrapper {
     position: relative;
-    margin: 0 auto;
-    width: 1300px;
+    background-size: cover;
     background: url("../images/57.png");
 }
 
@@ -127,7 +126,7 @@ ul.submenu li a {
     content: '';
     position: absolute;
     top: 110px;
-    left: 207px;
+    left: 204px;
     border: 10px solid transparent;
     border-bottom-color: #fcfafa;
 }
