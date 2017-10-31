@@ -146,8 +146,6 @@ ul.menu li:hover a.color1:before {
 }
 
 
-
-
 /*_____________________________________________________*/
 
 .top {
@@ -237,7 +235,7 @@ hr {
     justify-content: space-between;
     font-family: Pathway Gothic One;
     font-size: 32px;
-    margin: 0 60px 0 60px;
+    margin: 0 148px 0 60px;
     padding-bottom: 50px;
     color: #263555;
 }
@@ -346,8 +344,6 @@ hr {
 }
 
 
-
-
 /*____________________________________________________*/
 
 .to-top {
@@ -375,8 +371,6 @@ hr {
     align-items: center;
     justify-content: space-between;
 }
-
-
 
 .bottom-gallery {
     margin: auto;

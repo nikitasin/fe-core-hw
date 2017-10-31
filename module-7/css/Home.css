@@ -253,7 +253,6 @@ ul.menu li:hover a.color1:before {
     height: 341px;
     margin-top: 56px;
     margin-left: 61px;
-    padding-bottom: 136px;
 }
 
 .caption-dectinanions {
@@ -515,30 +514,32 @@ ul.menu li:hover a.color1:before {
 
 .newsletter {
     position: absolute;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     top: -2px;
     left: -2px;
     display: flex;
     justify-content: center;
-    font-family: 'Open Sans Condensed' bold;
+    font-family: 'Open Sans Condensed';
     font-size: 19px;
     width: 286px;
     border: 2px solid #e1dfdf;
 }
 
 .newsletter-p {
-    display: flex;
-    justify-content: center;
     font-family: Arial;
     font-size: 15px;
-    margin-top: 74px;
-    margin-bottom: 24px;
+    margin: 74px 0px 24px 15px;
+}
+.wrap {
+     width: 250px;
 }
 
 .newsletter-email {
-    margin-left: 15px;
-    margin-bottom: 47px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 47px 15px;
 }
 
 .newsletter-table {
@@ -556,7 +557,7 @@ ul.menu li:hover a.color1:before {
     position: absolute;
     text-align: center;
     left: 18px;
-    margin-top: 5px;
+    margin-top: 9px;
     width: 13px;
     height: 13px;
     border-radius: 50%;

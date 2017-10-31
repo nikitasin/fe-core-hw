@@ -4,19 +4,6 @@
     background: url("../images/57.png");
 }
 
-.wrapper-main {
-    padding-top: 100px;
-    position: relative;
-    margin: auto;
-    width: 1024px;
-    height: auto;
-    background: #fff;
-}
-
-.wrap-flex {
-    display: flex;
-}
-
 .header {
     margin: 0 auto;
     width: 1024px;
@@ -146,11 +133,20 @@ ul.menu li:hover a.color1:before {
 }
 
 
+/*_____________________________________________*/
 
-/*.caption {
-    margin-bottom: 50px;
+.wrapper-main {
+    padding-top: 100px;
+    position: relative;
+    margin: auto;
+    width: 1024px;
+    height: auto;
+    background: #fff;
 }
-*/
+
+.wrap-flex {
+    display: flex;
+}
 
 .caption {
     margin-right: 160px;
@@ -170,7 +166,6 @@ ul.menu li:hover a.color1:before {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 32px;
     margin-left: 60px;
-    /*padding-top: 96px;*/
     margin-bottom: 48px;
     color: #263555;
 }
@@ -190,8 +185,7 @@ iframe {
 }
 
 .address {
-    width: 134px 
-    font-size: 14px;
+    width: 134px font-size: 14px;
     padding-top: 6px;
     padding-bottom: 26px;
 }
@@ -231,12 +225,21 @@ iframe {
 .name {
     font-family: 'Arial', sans-serif;
     font-size: 13px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
     margin-bottom: 17px;
     background: #fcfafa;
     border: 2px solid #d4d0d0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.attachment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 input {
@@ -244,6 +247,8 @@ input {
     font-size: 11px;
     background: #fcfafa;
     border: none;
+    padding: 7px;
+    outline: none;
 }
 
 textarea {
@@ -251,15 +256,14 @@ textarea {
     font-size: 11px;
     background: #fcfafa;
     border: none;
+    resize: none;
+    outline: none;
 }
 
 .button-contact {
     display: flex;
     justify-content: flex-end;
-    margin-right: 20px;
-    margin-left: 20px;
 }
-
 
 .to-top {
     position: fixed;
@@ -300,7 +304,6 @@ textarea {
     line-height: 27px;
 }
 
-
 .bottom-txt2 {
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 27px;
@@ -323,7 +326,6 @@ textarea {
 
     display: flex;
 }
-
 
 li.nav_item {
     margin-top: 26px;

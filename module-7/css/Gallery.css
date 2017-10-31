@@ -1,15 +1,7 @@
 .wrapper {
-   position: relative;
+    position: relative;
     background-size: cover;
     background: url("../images/57.png");
-}
-
-.wrapper-bottom {
-    position: relative;
-    margin: auto;
-    width: 1024px;
-    height: auto;
-    background: #fff;
 }
 
 .header {
@@ -140,6 +132,17 @@ ul.menu li:hover a.color1:before {
     margin-bottom: 27px;
 }
 
+
+/*_______________________________________________*/
+
+.wrapper-bottom {
+    position: relative;
+    margin: auto;
+    width: 1024px;
+    height: auto;
+    background: #fff;
+}
+
 .title-gallery {
     font-family: 'Pathway Gothic One';
     font-size: 32px;
@@ -148,16 +151,16 @@ ul.menu li:hover a.color1:before {
     margin-bottom: 48px;
     color: #263555;
 }
+
 .gallery {
     box-sizing: border-box;
     width: 904px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 
-.gallery .img-box{
+.gallery .img-box {
     box-sizing: border-box;
     position: relative;
     width: 288px;
@@ -167,7 +170,7 @@ ul.menu li:hover a.color1:before {
     cursor: pointer;
 }
 
-.img-box img{
+.img-box img {
     position: relative;
     width: 100%;
     height: auto;
@@ -181,7 +184,7 @@ ul.menu li:hover a.color1:before {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.4s;
     z-index: 2;
@@ -204,7 +207,8 @@ ul.menu li:hover a.color1:before {
     z-index: 3
 }
 
-.img-box:hover:after, .img-box:hover:before{
+.img-box:hover:after,
+.img-box:hover:before {
     opacity: 1;
 }
 
@@ -240,6 +244,9 @@ img {
     width: 288px;
     height: 155px;
 }
+
+
+/*_______________________________________________*/
 
 .bottom-gallery {
     margin: auto;
@@ -333,9 +340,10 @@ li.nav_item {
 .nav_item>a:hover {
     filter: opacity(1);
 }
+
 .footer-bottom {
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  padding-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 28px;
 }
