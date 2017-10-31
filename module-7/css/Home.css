@@ -1,13 +1,13 @@
 @keyframes slidein {
-  from {
-    margin-left: -100%;
-    width: 100%; 
-  }
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
 
-  to {
-    margin-left: 0%;
-    width: 45%;
-  }
+    to {
+        margin-left: 0%;
+        width: 45%;
+    }
 }
 
 .wrapper {
@@ -242,7 +242,7 @@ ul.menu li:hover a.color1:before {
     display: inline-block;
     width: 287px;
     height: 270px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .destinations {
@@ -285,7 +285,7 @@ ul.menu li:hover a.color1:before {
 
 .venice-block {
     animation-duration: 3s;
-  animation-name: slidein;
+    animation-name: slidein;
 }
 
 
@@ -327,8 +327,9 @@ ul.menu li:hover a.color1:before {
     display: inline-block;
     width: 287px;
     height: 270px;
-      overflow:hidden;
+    overflow: hidden;
 }
+
 .usa-block {
     position: absolute;
     display: inline-block;
@@ -341,9 +342,11 @@ ul.menu li:hover a.color1:before {
     color: #fff;
     background: #193149;
 }
+
 .middle:hover .usa-block {
     display: block;
 }
+
 .block-u {
     font-family: 'Areal';
     font-size: 11px;
@@ -352,9 +355,10 @@ ul.menu li:hover a.color1:before {
     height: 130px;
     padding-bottom: 30px;
 }
+
 .usa-block {
     animation-duration: 3s;
-  animation-name: slidein;
+    animation-name: slidein;
 }
 
 .right {
@@ -362,8 +366,9 @@ ul.menu li:hover a.color1:before {
     display: inline-block;
     width: 287px;
     height: 270px;
-      overflow:hidden;
+    overflow: hidden;
 }
+
 .paris-block {
     position: absolute;
     display: inline-block;
@@ -376,9 +381,11 @@ ul.menu li:hover a.color1:before {
     color: #fff;
     background: #193149;
 }
+
 .right:hover .paris-block {
     display: block;
 }
+
 .block-p {
     font-family: 'Areal';
     font-size: 11px;
@@ -387,9 +394,10 @@ ul.menu li:hover a.color1:before {
     height: 130px;
     padding-bottom: 30px;
 }
+
 .paris-block {
     animation-duration: 3s;
-  animation-name: slidein;
+    animation-name: slidein;
 }
 
 .to-top {
@@ -431,8 +439,8 @@ ul.menu li:hover a.color1:before {
 }
 
 .in-head {
-     display: inline;
-  font-family: 'Pathway Gothic One';
+    display: inline;
+    font-family: 'Pathway Gothic One';
     font-size: 19px;
     border: 2px solid #e1dfdf;
     margin-right: -3px;
@@ -531,8 +539,9 @@ ul.menu li:hover a.color1:before {
     font-size: 15px;
     margin: 74px 0px 24px 15px;
 }
+
 .wrap {
-     width: 250px;
+    width: 250px;
 }
 
 .newsletter-email {
@@ -550,7 +559,7 @@ ul.menu li:hover a.color1:before {
 }
 
 .newsletter-table:before {
-    display:flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     content: url(../images/37.png);
