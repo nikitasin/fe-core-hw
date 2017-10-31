@@ -1,20 +1,468 @@
+:root {
+    --color: #263555;
+    --font-size: 15px;
+    --width: 641px;
+}
+
 .wrapper {
-border:2px solid  #e1dfdf;
-width: 500px;
+    position: relative;
+    background-size: cover;
+    background: url("../images/57.png");
 }
-h1 {
+
+.wrapper-content {
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+    background: #fff;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.menu-left {
+    display: inline-block;
+    width: 1024px;
+    padding-bottom: 109px;
+    text-align: center;
+    color: #fff;
+}
+
+.left-m {
+    margin: 101px 79px 0px 0px;
+
+    float: right;
     font-family: 'Pathway Gothic One';
-    font-size: 23px;
-display: flex;
-justify-content: center;
+    font-size: 21px;
 }
 
-.maps {
-    width: 300px;
-    height: 300px;
-    margin-top: 300px;
+.right-m {
+    margin: 101px 0px 0px 79px;
+
+    float: left;
+    font-family: 'Pathway Gothic One';
+    font-size: 21px;
 }
 
-.table {
-    padding: 20px;
+.logo {
+    font-family: 'Dorsa';
+    font-size: 60px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 0px 0px 442px;
+
+    width: 138px;
+    height: 138px;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    color: #263555;
+}
+
+.txt-logo {
+    padding-top: 40px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: "";
+    clear: both;
+    float: none;
+}
+
+.menu {
+    position: relative;
+}
+
+ul.menu li h2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+ul.submenu {
+    font-family: 'Pathway Gothic One';
+    font-size: 16px;
+    line-height: 25px;
+    display: none;
+    position: absolute;
+    top: 130px;
+    left: 190px;
+    background-color: white;
+    border: 1px;
+    border-radius: 10%;
+}
+
+ul.submenu li a {
+    display: block;
+    color: #6b7488;
+    text-decoration: none;
+}
+
+.submenu1 {
+    padding: 0px 5px 0px 5px;
+}
+
+.color1:before {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 110px;
+    left: 204px;
+    border: 10px solid transparent;
+    border-bottom-color: #fcfafa;
+}
+
+ul.menu li:hover ul.submenu {
+    display: block;
+}
+
+ul.menu li:hover a.color {
+    color: #263555;
+}
+
+ul.menu li:hover a.color1 {
+    color: #263555;
+}
+
+ul.menu li:hover a.color1:before {
+    display: block;
+}
+
+.block {
+    position: relative;
+    margin-bottom: 27px;
+}
+
+
+/*_____________________________________________________*/
+
+.top {
+    display: flex;
+}
+
+.caption-top {
+    display: flex;
+    justify-content: space-between;
+    font-family: Pathway Gothic One;
+    font-size: 32px;
+    padding: 116px 120px 50px 60px;
+    color: #263555;
+}
+
+.top-block {
+    width: 646px;
+    margin: 0px 82px 0px 60px;
+}
+
+img {
+    display: inline-block;
+    float: left;
+    margin: 0px 25px 23px 0px;
+    width: 362px;
+    height: 281px;
+}
+
+.cliarfix:after {
+    clear: both;
+    content: "";
+    display: table;
+    height: 0;
+}
+
+.agency-profile-caption {
+    font-family: Arial regular;
+    font-size: var(--font-size);
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #263555;
+    line-height: 19px;
+}
+
+.paragraph {
+    font-family: Arial regular;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.our-principes {
+    width: 174px;
+}
+
+.our-principes-list {
+    display: flex;
+    flex-direction: column;
+}
+
+li.circle:before {
+    position: absolute;
+    counter-increment: heading;
+    content: counter(heading);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0px 0px -37px;
+    width: 27px;
+    height: 23px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    background: #38afe5;
+    color: #fff;
+}
+
+body {
+    counter-reset: heading;
+}
+
+hr {
+    margin: 52px 60px 60px 58px;
+}
+
+.caption-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-family: Pathway Gothic One;
+    font-size: 32px;
+    margin: 0 148px 0 60px;
+    padding-bottom: 50px;
+    color: #263555;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom-block {
+    width: 646px;
+    margin: 0 50px 0 60px;
+}
+
+.bottom-right {
+    margin-right: 60px;
+    width: 206px;
+}
+
+.inside-img {
+    background: url(../images/85.png) no-repeat;
+    width: 213px;
+    height: 223px;
+    display: inline-block;
+    position: inherit;
+}
+
+.inside {
+    font-family: Arial regular;
+    font-size: var(--font-size);
+    margin: 23px;
+    font-weight: bold;
+    color: var(--color);
+    background-color: #fcfafa;
+    line-height: 19px;
+}
+
+.inside:before {
+    content: "\22";
+    margin: 0px 0px 0px -10px;
+    position: absolute;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.inside:after {
+    content: "\22";
+    margin: 0px 0px 0px 2px;
+    position: absolute;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.author-quote {
+    text-align: center;
+    font-family: Arial regular;
+    font-size: var(--font-size);
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: var(--color);
+    line-height: 19px;
+}
+
+.paragraph1 {
+    margin-top: 19px;
+    text-align: center;
+    font-family: Arial regular;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.bottom-list {
+    font-family: Arial regular;
+    font-size: var(--font-size);
+    margin: -80px 0px 88px 60px;
+    font-weight: bold;
+    color: #263555;
+    line-height: 19px;
+    width: 528px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: inline-block;
+    line-height: 35px;
+    padding-left: 30px;
+}
+
+.right {
+    display: inline-block;
+    line-height: 35px;
+    padding-left: 0px;
+}
+
+.table-botom:before {
+    content: "";
+    background: url(../images/pointer.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 10px;
+    height: 7px;
+    display: inline-block;
+    margin: 13px 0px 0px -24px;
+    position: absolute;
+}
+
+
+/*____________________________________________________*/
+
+.to-top {
+    position: fixed;
+    right: 180px;
+    bottom: 300px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #38afe5;
+    color: #fff;
+}
+
+.pointer3 {
+    width: 11px;
+    height: 6px;
+    margin: 10px;
+}
+
+.gallery {
+    margin: auto;
+    width: 902px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-gallery {
+    margin: auto;
+    width: 1024px;
+    background: #30455b;
+    color: #fff;
+    padding: 43px 0px 32px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-txt {
+    font-family: 'Open Sans Condensed';
+    line-height: 27px;
+}
+
+.bottom-txt1 {
+    font-family: 'Open Sans Condensed';
+    padding-left: 79px;
+    line-height: 27px;
+}
+
+
+.bottom-txt2 {
+    font-family: 'Open Sans Condensed';
+    line-height: 27px;
+    margin-right: 100px;
+}
+
+.email {
+    font-family: 'Arial';
+}
+
+.footer {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+
+    display: flex;
+}
+
+
+li.nav_item {
+    margin: 26px 6px 24px 6px;
+    height: 40px;
+    flex-basis: 40px;
+}
+
+.nav_item a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.nav_item:nth-of-type(1)>a {
+    background-image: url("../images/51.png");
+    background-repeat: no-repeat;
+    background-position: -2px 0px;
+    filter: opacity(.7);
+}
+
+.nav_item:nth-of-type(2)>a {
+    background-image: url("../images/51.png");
+    background-repeat: no-repeat;
+    background-position: -52px 0px;
+    filter: opacity(.7);
+}
+
+.nav_item:nth-of-type(3)>a {
+    background-image: url("../images/51.png");
+    background-repeat: no-repeat;
+    background-position: -106px 0px;
+    filter: opacity(.7);
+}
+
+.nav_item:nth-of-type(4)>a {
+    background-image: url("../images/51.png");
+    background-repeat: no-repeat;
+    background-position: -158px 0px;
+    filter: opacity(.7);
+}
+
+.nav_item>a:hover {
+    filter: opacity(1);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 28px;
 }
