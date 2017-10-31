@@ -157,8 +157,7 @@ ul.menu li:hover a.color1:before {
     justify-content: space-between;
     font-family: Pathway Gothic One;
     font-size: 32px;
-    margin: 0px 60px 0px 60px;
-    padding: 116px 0px 50px 0px;
+    padding: 116px 120px 50px 60px;
     color: #263555;
 }
 
