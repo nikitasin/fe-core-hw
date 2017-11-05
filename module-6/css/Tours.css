@@ -34,7 +34,6 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     width: 100%;
-    text-align: center;
     color: #fff;
 }
 
@@ -172,6 +171,7 @@ ul.menu li:hover a.color1:before {
     margin-bottom: 27px;
 }
 
+
 /*_______________________Начинка______________________________*/
 
 .wrap {
@@ -236,7 +236,6 @@ button {
 
 .top-right {
     width: 212px;
-    /*margin-right: 40px;*/
 }
 
 .top-right>div {
@@ -303,6 +302,7 @@ textarea {
 .menu-l {
     padding-top: 15px;
 }
+
 
 /*_______________________Начинка______________________________*/
 

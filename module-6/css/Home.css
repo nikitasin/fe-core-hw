@@ -21,7 +21,6 @@
     background: #fff;
 }
 
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -29,7 +28,6 @@
     margin: auto;
     max-width: 1024px;
 }
-
 
 .header {
     margin: 0 auto;
@@ -39,9 +37,7 @@
 .menu-left {
     display: flex;
     justify-content: space-between;
-    /*flex-wrap: nowrap;*/
     width: 100%;
-    text-align: center;
     color: #fff;
 }
 
@@ -480,9 +476,9 @@ ul.menu li:hover a.color1:before {
 }
 
 .in-head2 {
-    margin-left: 200px;
+    margin-left: 233px;
     border: 2px solid #e1dfdf;
-    padding: 9px 108px 9px 107px;
+    padding: 9px 107px 9px 107px;
 }
 
 .in-head2:hover {
@@ -556,7 +552,7 @@ ul.menu li:hover a.color1:before {
 
 .block-right-bottom {
     width: 286px;
-    height: 428px;
+    margin: 0 0 90px 32px;
     border: 2px solid #e1dfdf;
 }
 
