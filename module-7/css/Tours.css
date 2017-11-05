@@ -4,10 +4,16 @@
     --width: 641px;
 }
 
-.wrapper {
-    position: relative;
-    background-size: cover;
+.wrapper-main-main {
     background: url("../images/57.png");
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1024px;
 }
 
 .wrapper-content {
@@ -20,29 +26,29 @@
 
 .header {
     margin: 0 auto;
-    width: 1024px;
+    width: 100%;
 }
 
 .menu-left {
-    display: inline-block;
-    width: 1024px;
-    padding-bottom: 109px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
     color: #fff;
 }
 
 .left-m {
-    margin: 101px 79px 0px 0px;
-
-    float: right;
+    height: 210px;
+    display: flex;
+    align-items: center;
     font-family: 'Pathway Gothic One';
     font-size: 21px;
 }
 
 .right-m {
-    margin: 101px 0px 0px 79px;
-
-    float: left;
+    height: 210px;
+    display: flex;
+    align-items: center;
     font-family: 'Pathway Gothic One';
     font-size: 21px;
 }
@@ -51,21 +57,18 @@
     font-family: 'Dorsa';
     font-size: 60px;
     position: absolute;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 40px 0px 0px 442px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 0 442px;
     width: 138px;
     height: 138px;
     border-radius: 50%;
-    text-align: center;
     background: #fff;
     color: #263555;
 }
 
-.txt-logo {
-    padding-top: 40px;
-}
+
 
 ul {
     display: block;
@@ -82,12 +85,30 @@ ul:after {
 }
 
 .menu {
+    width: 395px;
+    padding-left: 55px;
     position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-r {
+    width: 395px;
+    padding-right: 55px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 ul.menu li h2 a {
     display: block;
-    color: white;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.menu-r li h2 a {
+    display: block;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -99,7 +120,7 @@ ul.submenu {
     position: absolute;
     top: 130px;
     left: 190px;
-    background-color: white;
+    background-color: #fff;
     border: 1px;
     border-radius: 10%;
 }
@@ -111,7 +132,8 @@ ul.submenu li a {
 }
 
 .submenu1 {
-    padding: 0px 5px 0px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .color1:before {
@@ -132,6 +154,10 @@ ul.menu li:hover a.color {
     color: #263555;
 }
 
+ul.menu-r li:hover a.color {
+    color: #263555;
+}
+
 ul.menu li:hover a.color1 {
     color: #263555;
 }
@@ -144,6 +170,7 @@ ul.menu li:hover a.color1:before {
     position: relative;
     margin-bottom: 27px;
 }
+
 
 /*_______________________Начинка______________________________*/
 
@@ -209,7 +236,6 @@ button {
 
 .top-right {
     width: 212px;
-    /*margin-right: 40px;*/
 }
 
 .top-right>div {
@@ -276,6 +302,7 @@ textarea {
 .menu-l {
     padding-top: 15px;
 }
+
 
 /*_______________________Начинка______________________________*/
 
