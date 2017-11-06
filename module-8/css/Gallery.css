@@ -5,6 +5,7 @@
             background-size: cover;
         }
 
+
         .wrapper {
             display: flex;
             flex-direction: column;
@@ -483,7 +484,8 @@
                 margin: 20px 0;
                 overflow: hidden;
                 cursor: pointer;
-         
+            }
+
             .to-top {
                 position: fixed;
                 right: 3%;
@@ -494,7 +496,7 @@
                 background: #38afe5;
                 color: #fff;
             }
-         
+
             img {
                 display: inline-block;
                 margin-bottom: 40px;
@@ -511,7 +513,6 @@
                 display: flex;
                 justify-content: space-between;
             }
-            
         }
 
         @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -612,6 +613,7 @@
                 border-bottom-color: #fcfafa;
             }
 
+
             .wrapper-bottom {
                 position: relative;
                 margin: auto;
@@ -670,7 +672,6 @@
             }
 
             .bottom-gallery {
-                /*margin: auto;*/
                 width: 480px;
                 background: #30455b;
                 color: #fff;
