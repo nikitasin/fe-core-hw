@@ -675,21 +675,23 @@
                 width: 480px;
                 background: #30455b;
                 color: #fff;
-                padding: 0px 0 0px;
+                padding: 24px 0 0px;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: center;
             }
 
             .bottom-txt {
                 font-family: 'Open Sans Condensed';
                 font-size: 14px;
                 line-height: 27px;
+                margin-left: 60px;
             }
 
             .bottom-txt1 {
                 font-family: 'Open Sans Condensed';
                 padding-left: 0px;
+                /*margin-right: 60px;*/
                 font-size: 14px;
                 line-height: 27px;
             }
@@ -700,9 +702,8 @@
                 line-height: 27px;
                 font-size: 14px;
                 margin-right: 0px;
-                padding-left: 30px;
-                padding-bottom: 38px;
-                padding-top: 28px;
+                margin-left: 40px;
+                padding: 28px 40px 38px 30px;
                 width: 480px;
                 display: flex;
                 align-self: stretch;
@@ -717,7 +718,7 @@
             .email {
                 font-family: 'Arial';
                 font-size: 10px;
-                margin-right: 15px;
+                /*margin-right: 15px;*/
             }
             .copywriting {
                 font-family: 'Arial';
@@ -729,4 +730,22 @@
                 color: #fff;
                 padding-bottom: 22px;
             }
+            .telephone:before {
+            content: '';
+            background: url("../images/phone.png") no-repeat;
+            position: absolute;
+            display: inline-block;
+            width: 10px;
+            height: 17px;
+            margin:5px 0 0 -20px;
+        }
+        .email:before {
+            content: '';
+            background: url("../images/email.png") no-repeat;
+            position: absolute;
+            display: inline-block;
+            width: 18px;
+            height: 14px;
+            margin:7px 0 0 -30px;
+        }
         }
