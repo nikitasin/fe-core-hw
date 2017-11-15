@@ -153,11 +153,7 @@
             display: block;
         }
 
-        .block {
-            position: relative;
-            margin-bottom: 27px;
-        }
-
+/*________________________________________________________________________________*/
         .wrapper-bottom {
             position: relative;
             margin: auto;
@@ -263,6 +259,7 @@
             height: 155px;
         }
 
+/*________________________________________________________________________________*/
         .bottom-gallery {
             margin: auto;
             width: 100%;
@@ -691,7 +688,6 @@
             .bottom-txt1 {
                 font-family: 'Open Sans Condensed';
                 padding-left: 0px;
-                /*margin-right: 60px;*/
                 font-size: 14px;
                 line-height: 27px;
             }
@@ -718,7 +714,6 @@
             .email {
                 font-family: 'Arial';
                 font-size: 10px;
-                /*margin-right: 15px;*/
             }
             .copywriting {
                 font-family: 'Arial';
@@ -731,21 +726,21 @@
                 padding-bottom: 22px;
             }
             .telephone:before {
-            content: '';
-            background: url("../images/phone.png") no-repeat;
-            position: absolute;
-            display: inline-block;
-            width: 10px;
-            height: 17px;
-            margin:5px 0 0 -20px;
-        }
-        .email:before {
-            content: '';
-            background: url("../images/email.png") no-repeat;
-            position: absolute;
-            display: inline-block;
-            width: 18px;
-            height: 14px;
-            margin:7px 0 0 -30px;
-        }
+                content: '';
+                background: url("../images/phone.png") no-repeat;
+                position: absolute;
+                display: inline-block;
+                width: 10px;
+                height: 17px;
+                margin: 5px 0 0 -20px;
+            }
+            .email:before {
+                content: '';
+                background: url("../images/email.png") no-repeat;
+                position: absolute;
+                display: inline-block;
+                width: 18px;
+                height: 14px;
+                margin: 7px 0 0 -30px;
+            }
         }
