@@ -140,11 +140,6 @@ ul.menu li:hover a.color1:before {
 }
 
 
-
-
-
-
-
 /*_______________________Начинка______________________________*/
 
 .color-block {
@@ -163,7 +158,6 @@ ul.menu li:hover a.color1:before {
 .caption-top-right {
     font-family: Pathway Gothic One;
     font-size: 32px;
-    /*width: 590px;*/
     padding: 116px 60px 50px 0px;
     color: #263555;
     background: #fff;
@@ -293,10 +287,6 @@ textarea {
 }
 
 
-
-
-
-
 /*_______________________Начинка______________________________*/
 
 .to-top {
@@ -343,7 +333,6 @@ textarea {
     font-size: 16px;
 }
 
-
 .bottom-txt2 {
     display: flex;
     flex-direction: column;
@@ -356,7 +345,6 @@ textarea {
 
 .telephone {
     font-family: 'Arial';
-
     font-size: 12px;
 }
 
@@ -376,7 +364,6 @@ textarea {
 
     display: flex;
 }
-
 
 li.nav_item {
     margin: 26px 6px 6px 24px;
@@ -423,7 +410,8 @@ li.nav_item {
 }
 
 .copywriting {
-    /*width: 100%;*/
+    font-family: 'Arial';
+     font-size: 12px;
     display: flex;
     justify-content: center;
     color: #fff;
@@ -473,13 +461,13 @@ li.nav_item {
         line-height: 21px;
         padding: 12px 9px 12px 9px;
         top: 40px;
-        left: 0px;
+        left: 18px;
         background-color: #f2f2f3;
     }
 
     .color1:before {
         top: 20px;
-        left: 30px;
+        left: 45px;
     }
     /*______________________________________________________________________*/
     .top-left {
@@ -524,9 +512,6 @@ li.nav_item {
     textarea {
         margin-bottom: 0px;
     }
-
-
-
 
     /*________________________________________________________________________*/
     .to-top {
@@ -606,6 +591,16 @@ li.nav_item {
         margin-right: 0px;
         padding: 0 37px 0 37px;
     }
+    .caption-top-right {
+        font-size: 28px;
+        width: 200px;
+        padding: 0px 0px 40px 0px;
+    }
+    .title-bottom>h3 {
+        font-size: 28px;
+        padding: 0px 0px 40px 0px;
+        margin-bottom: 0px;
+    }
     .block-tour {
         width: 406px;
         display: inline-block;
@@ -634,207 +629,140 @@ li.nav_item {
         color: #60bbe9;
     }
     .top-right {
-        max-width: 480px;
+        width: 480px;
         padding: 0 37px 0 37px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .top-right>.one {
-        width: 265px;
+        width: 369px;
     }
+    .top-right>.two {
+        padding: 0 0 0 0;
+    }
+
     textarea {
-        width: 265px;
+        width: 255px;
+        margin: 0 0 0 50px;
     }
     .three>textarea {
-        width: 199px;
-         margin: 0 5px 0 5px;
+        width: 189px;
+        margin: 0 5px 0 5px;
     }
     select {
-        width: 265px;
-        
+        width: 255px;
+        margin: 0 0 0 50px;
     }
     .two>select {
-        width: 199px;
-         margin: 0 5px 0 5px;
+        width: 189px;
+        margin: 0 5px 0 5px;
+        display: flex;
     }
     .three>select {
-        width: 199px;
+        width: 189px;
         margin: 0 5px 0 5px;
+        display: flex;
+    }
+    .one>div {
+        margin: 0 0 0 50px;
+    }
+
+    .three {
+        padding: 70px 0px 0px 0px;
+    }
+    .button {
+        margin: 0px 336px 0 0px !important;
+    }
+    .subtitle {
+        margin-left: 5px;
+    }
+    #subsubtitle {
+        margin-left: 5px;
     }
 
     /*________________________________________________________*/
-    .to-top {
-        right: 3%;
-        bottom: 250px;
-        width: 28px;
-        height: 28px;
-    }
+  .to-top {
+         right: 3%;
+         bottom: 250px;
+         width: 28px;
+         height: 28px;
+     }
 
-    .row.bottom-gallery {
-        margin: auto;
-        width: auto;
-        padding: 43px 0 32px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .footer {
-        width: auto;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .bottom-gallery {
-        width: auto;
-        background: #30455b;
-        color: #fff;
-        padding: 24px 0 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+     .footer {
+         width: auto;
+         margin: auto;
+         display: flex;
+         justify-content: center;
+     }
+     .bottom-gallery {
+         width: auto;
+         background: #30455b;
+         color: #fff;
+         padding: 24px 0 0px;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-around;
+     }
 
-    .bottom-txt {
-        font-family: 'Open Sans Condensed';
-        font-size: 14px;
-        line-height: 27px;
-        margin-left: 60px;
-    }
+     .bottom-txt {
+         font-family: 'Open Sans Condensed';
+         font-size: 14px;
+         line-height: 27px;
+         margin-left: 0px;
+     }
 
-    .bottom-txt1 {
-        font-family: 'Open Sans Condensed';
-        padding-left: 0px;
-        font-size: 14px;
-        line-height: 27px;
-    }
+     .bottom-txt1 {
+         font-family: 'Open Sans Condensed';
+         padding-left: 0px;
+         font-size: 14px;
+         line-height: 27px;
+     }
 
 
-    .bottom-txt2 {
-        font-family: 'Open Sans Condensed';
-        line-height: 27px;
-        font-size: 14px;
-        margin-right: 0px;
-        margin-left: 40px;
-        padding: 28px 40px 38px 30px;
-        display: flex;
-        align-self: stretch;
-        justify-content: space-around;
-    }
-    .telephone {
-        font-family: 'Arial';
-        font-size: 10px;
-        margin-left: 50px;
-    }
+     .bottom-txt2 {
+         font-family: 'Open Sans Condensed';
+         line-height: 27px;
+         font-size: 14px;
+         margin-right: 0px;
+         margin-left: 30px;
+         padding: 28px 40px 38px 30px;
+         display: flex;
+         flex-direction: row;
+         align-self: stretch;
+         justify-content: space-between;
+     }
+     .telephone {
+         font-family: 'Arial';
+         font-size: 10px;
+         margin-left: 50px;
+     }
 
-    .email {
-        font-family: 'Arial';
-        font-size: 10px;
-    }
-    .telephone:before {
-        content: '';
-        background: url("../images/phone.png") no-repeat;
-        position: absolute;
-        display: inline-block;
-        width: 10px;
-        height: 17px;
-        margin: 5px 0 0 -20px;
-    }
-    .email:before {
-        content: '';
-        background: url("../images/email.png") no-repeat;
-        position: absolute;
-        display: inline-block;
-        width: 18px;
-        height: 14px;
-        margin: 7px 0 0 -30px;
-    }
+     .email {
+         font-family: 'Arial';
+         font-size: 10px;
+     }
+     .telephone:before {
+         content: '';
+         background: url("../images/phone.png") no-repeat;
+         position: absolute;
+         display: inline-block;
+         width: 10px;
+         height: 17px;
+         margin: 5px 0 0 -20px;
+     }
+     .email:before {
+         content: '';
+         background: url("../images/email.png") no-repeat;
+         position: absolute;
+         display: inline-block;
+         width: 18px;
+         height: 14px;
+         margin: 7px 0 0 -30px;
+     }
 
-    .copywriting {
-        padding-bottom: 42px;
-    }
-    .to-top {
-        right: 3%;
-        bottom: 250px;
-        width: 28px;
-        height: 28px;
-    }
-
-    .row.bottom-gallery {
-        margin: auto;
-        width: auto;
-        padding: 43px 0 32px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .footer {
-        width: auto;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .bottom-gallery {
-        width: auto;
-        background: #30455b;
-        color: #fff;
-        padding: 24px 0 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .bottom-txt {
-        font-family: 'Open Sans Condensed';
-        font-size: 14px;
-        line-height: 27px;
-        margin-left: 60px;
-    }
-
-    .bottom-txt1 {
-        font-family: 'Open Sans Condensed';
-        padding-left: 0px;
-        font-size: 14px;
-        line-height: 27px;
-    }
-
-
-    .bottom-txt2 {
-        font-family: 'Open Sans Condensed';
-        line-height: 27px;
-        font-size: 14px;
-        margin-right: 0px;
-        margin-left: 40px;
-        padding: 28px 40px 38px 30px;
-        display: flex;
-        align-self: stretch;
-        justify-content: space-around;
-    }
-    .telephone {
-        font-family: 'Arial';
-        font-size: 10px;
-        margin-left: 50px;
-    }
-
-    .email {
-        font-family: 'Arial';
-        font-size: 10px;
-    }
-    .telephone:before {
-        content: '';
-        background: url("../images/phone.png") no-repeat;
-        position: absolute;
-        display: inline-block;
-        width: 10px;
-        height: 17px;
-        margin: 5px 0 0 -20px;
-    }
-    .email:before {
-        content: '';
-        background: url("../images/email.png") no-repeat;
-        position: absolute;
-        display: inline-block;
-        width: 18px;
-        height: 14px;
-        margin: 7px 0 0 -30px;
-    }
-
-    .copywriting {
-        padding-bottom: 42px;
-    }
-}
+     .copywriting {
+         padding-bottom: 42px;
+     }
+ }
