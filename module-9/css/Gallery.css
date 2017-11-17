@@ -190,7 +190,7 @@
 
  .to-top {
      position: fixed;
-     right: 13%;
+    left: calc(50% + 476px);
      bottom: 250px;
      width: 30px;
      height: 30px;
@@ -387,7 +387,7 @@
      }
 
      .to-top {
-         right: 3%;
+         left: calc(50% + 355px);
          bottom: 250px;
          width: 28px;
          height: 28px;
@@ -482,7 +482,7 @@
      }
 
      .to-top {
-         right: 3%;
+         left: calc(50% + 210px);
          bottom: 250px;
          width: 28px;
          height: 28px;

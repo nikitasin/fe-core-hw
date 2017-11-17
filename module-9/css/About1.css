@@ -61,7 +61,7 @@
                   width: 138px;
                   height: 138px;
                   border-radius: 50%;
-                  background: #fff;
+                  background: #ffffff;
                   color: #263555;
               }
 
@@ -321,7 +321,6 @@
 
               .to-top {
                   position: fixed;
-                  right: 13%;
                   bottom: 250px;
                   width: 30px;
                   height: 30px;
@@ -329,6 +328,7 @@
                   background: #38afe5;
                   color: #fff;
                   z-index: 2;
+                  left: calc(50% + 476px);
               }
 
               .pointer3 {
@@ -545,7 +545,7 @@
                       height: 220px;
                   }
                   .to-top {
-                      right: 3%;
+                      left: calc(50% + 355px);
                       bottom: 250px;
                       width: 28px;
                       height: 28px;
@@ -690,7 +690,7 @@
                       padding-bottom: 55px;
                   }
                   .to-top {
-                      right: 3%;
+                      left: calc(50% + 210px);
                       bottom: 250px;
                       width: 28px;
                       height: 28px;
@@ -769,7 +769,7 @@
                       margin: 7px 0 0 -30px;
                   }
 
-                  .copywriting {
+                  
                       padding-bottom: 42px;
                   }
               }
