@@ -11,7 +11,7 @@
  body {
      margin: 0;
      height: 100%;
-     background: url("../images/57.png") no-repeat;
+     background: url("../images/57-min.png") no-repeat;
      background-size: cover;
  }
 
@@ -279,28 +279,28 @@
  }
 
  .nav_item:nth-of-type(1)>a {
-     background-image: url("../images/51.png");
+     background-image: url("../images/51-min.png");
      background-repeat: no-repeat;
      background-position: -2px 0px;
      filter: opacity(.7);
  }
 
  .nav_item:nth-of-type(2)>a {
-     background-image: url("../images/51.png");
+     background-image: url("../images/51-min.png");
      background-repeat: no-repeat;
      background-position: -52px 0px;
      filter: opacity(.7);
  }
 
  .nav_item:nth-of-type(3)>a {
-     background-image: url("../images/51.png");
+     background-image: url("../images/51-min.png");
      background-repeat: no-repeat;
      background-position: -106px 0px;
      filter: opacity(.7);
  }
 
  .nav_item:nth-of-type(4)>a {
-     background-image: url("../images/51.png");
+     background-image: url("../images/51-min.png");
      background-repeat: no-repeat;
      background-position: -158px 0px;
      filter: opacity(.7);
@@ -544,7 +544,7 @@
      }
      .telephone:before {
          content: '';
-         background: url("../images/phone.png") no-repeat;
+         background: url("../images/phone-min.png") no-repeat;
          position: absolute;
          display: inline-block;
          width: 10px;
@@ -553,7 +553,7 @@
      }
      .email:before {
          content: '';
-         background: url("../images/email.png") no-repeat;
+         background: url("../images/email-min.png") no-repeat;
          position: absolute;
          display: inline-block;
          width: 18px;
