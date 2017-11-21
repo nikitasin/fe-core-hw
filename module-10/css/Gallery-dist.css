@@ -3,6 +3,7 @@
             height: 100%;
             background: url("../images/57-min.png");
             background-size: cover;
+            font-family: 'Pathway Gothic One';
         }
 
 
@@ -28,7 +29,7 @@
             width: 100%;
         }
 
-        .menu-main {
+        .header__menu-main {
             display: -webkit-box;
             display: -webkit-flex;
             display: -ms-flexbox;
@@ -44,7 +45,7 @@
             color: #fff;
         }
 
-        .left-m {
+        .header__menu-main__menu__left-m {
             height: 210px;
             display: -webkit-box;
             display: -webkit-flex;
@@ -54,11 +55,10 @@
             -webkit-align-items: center;
             -ms-flex-align: center;
             align-items: center;
-            font-family: 'Pathway Gothic One';
             font-size: 21px;
         }
 
-        .right-m {
+        .header__menu-main__menu__right-m {
             height: 210px;
             display: -webkit-box;
             display: -webkit-flex;
@@ -68,11 +68,10 @@
             -webkit-align-items: center;
             -ms-flex-align: center;
             align-items: center;
-            font-family: 'Pathway Gothic One';
             font-size: 21px;
         }
 
-        .logo {
+        .header__logo {
             font-family: 'Dorsa';
             font-size: 60px;
             position: absolute;
@@ -110,7 +109,7 @@
             float: none;
         }
 
-        .menu {
+        .header__menu-left__menu {
             width: 395px;
             padding-left: 55px;
             position: relative;
@@ -123,7 +122,7 @@
             justify-content: space-around;
         }
 
-        .menu-r {
+        .header__menu-main__menu-r {
             width: 395px;
             padding-left: 55px;
             display: -webkit-box;
@@ -135,20 +134,19 @@
             justify-content: space-around;
         }
 
-        ul.menu li h2 a {
+        ul.header__menu-left__menu li h2 a {
             display: block;
             color: #fff;
             text-decoration: none;
         }
 
-        ul.menu-r li h2 a {
+        ul.header__menu-main__menu-r li h2 a {
             display: block;
             color: #fff;
             text-decoration: none;
         }
 
-        ul.submenu {
-            font-family: 'Pathway Gothic One';
+        ul.header__menu-main__menu__right-m__color1__submenu {
             font-size: 16px;
             line-height: 25px;
             display: none;
@@ -160,18 +158,18 @@
             border-radius: 10%;
         }
 
-        ul.submenu li a {
+        ul.header__menu-main__menu__right-m__color1__submenu li a {
             display: block;
             color: #6b7488;
             text-decoration: none;
         }
 
-        .submenu1 {
+        .header__menu-main__menu__right-m__color1__submenu__submenu1 {
             padding-left: 5px;
             padding-right: 5px;
         }
 
-        .color1:before {
+        .header__menu-main__menu__right-m__color1:before {
             display: none;
             content: '';
             position: absolute;
@@ -181,23 +179,31 @@
             border-bottom-color: #fcfafa;
         }
 
-        ul.menu li:hover ul.submenu {
+        ul.header__menu-left__menu li:hover ul.header__menu-main__menu__right-m__color1__submenu {
             display: block;
         }
 
-        ul.menu li:hover a.color {
+        ul.header__menu-left__menu li:hover a.header__menu-main__menu__right-m__color {
             color: #263555;
         }
 
-        ul.menu-r li:hover a.color {
+        ul.header__menu-main__menu-r li:hover a.header__menu-main__menu__right-m__color {
             color: #263555;
         }
 
-        ul.menu li:hover a.color1 {
+        ul.header__menu-left__menu li:hover a.header__menu-main__menu__left-m__color {
             color: #263555;
         }
 
-        ul.menu li:hover a.color1:before {
+        ul.header__menu-main__menu-r li:hover a.header__menu-main__menu__left-m__color {
+            color: #263555;
+        }
+
+        ul.header__menu-left__menu li:hover a.header__menu-main__menu__right-m__color1 {
+            color: #263555;
+        }
+
+        ul.header__menu-left__menu li:hover a.header__menu-main__menu__right-m__color1:before {
             display: block;
         }
         /*________________________________________________________________________________*/
@@ -212,7 +218,6 @@
         }
 
         .title-gallery {
-            font-family: 'Pathway Gothic One';
             font-size: 32px;
             margin-left: 60px;
             padding-top: 96px;
@@ -230,7 +235,8 @@
             margin: 20px 0;
             overflow: hidden;
         }
-/*_________________________Сложности_______________________*/
+        /*_________________________Сложности_______________________*/
+
         .zoom:hover {
             display: block;
             margin: 0 auto;
@@ -238,16 +244,6 @@
             height: 100px;
             z-index: 4;
         }
-        /*.img-box:hover:before {
-            content: '';
-            background-color: #000;
-            height: 100%;
-            width: 100%;
-            opacity: 1.7;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }*/
 
         .img-box:hover:after {
             content: url("../images/icon.svg");
@@ -259,7 +255,7 @@
             transform: translate(-50%, -50%);
             cursor: none;
         }
-/*_________________________Сложности_______________________*/
+        /*_________________________Сложности_______________________*/
 
         .to-top {
             position: fixed;
@@ -325,105 +321,55 @@
             justify-content: space-around;
         }
 
-        .bottom-txt {
+        .bottom-gallery__bottom-txt {
             font-family: 'Open Sans Condensed';
             line-height: 27px;
         }
 
-        .bottom-txt1 {
+        .bottom-gallery__bottom-txt1 {
             font-family: 'Open Sans Condensed';
             padding-left: 79px;
             line-height: 27px;
         }
 
 
-        .bottom-txt2 {
+        .bottom-gallery__bottom-txt2 {
             font-family: 'Open Sans Condensed';
             line-height: 27px;
             margin-right: 100px;
         }
 
-        .email {
+        .bottom-gallery__bottom-txt2__email {
             font-family: 'Arial';
         }
 
-        .footer {
-            width: 100%;
-            margin: auto;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -webkit-justify-content: center;
-            -ms-flex-pack: center;
-            justify-content: center;
+        footer {
+         margin: 0 auto;
+            padding: 30px 0;
         }
 
-        .socials {
-
-            display: -webkit-box;
-
-            display: -webkit-flex;
-
-            display: -ms-flexbox;
-
-            display: flex;
+        footer>.littel {
+            text-align: center;
+            padding: 30px 0;
         }
 
-
-        li.socials_item {
-            margin: 26px 6px 6px 24px;
-            height: 40px;
-            -webkit-flex-basis: 40px;
-            -ms-flex-preferred-size: 40px;
-            flex-basis: 40px;
+        #svg {
+            display: none;
         }
 
-        .socials_item a {
-            display: inline-block;
-            height: 40px;
-            width: 40px;
+        .icon {
+            width: 50px;
+            height: 50px;
+            fill: #ee810b;
         }
 
-        .socials_item:nth-of-type(1)>a {
-            background-image: url("../images/lckph-m2ddp.svg");
-            background-repeat: no-repeat;
-            background-position: -2px 0px;
-            -webkit-filter: opacity(.7);
-            filter: opacity(.7);
-        }
-
-        .socials_item:nth-of-type(2)>a {
-            background-image: url("../images/lckph-m2ddp.svg");
-            background-repeat: no-repeat;
-            background-position: -52px 0px;
-            -webkit-filter: opacity(.7);
-            filter: opacity(.7);
-        }
-
-        .socials_item:nth-of-type(3)>a {
-            background-image: url("../images/lckph-m2ddp.svg");
-            background-repeat: no-repeat;
-            background-position: -106px 0px;
-            -webkit-filter: opacity(.7);
-            filter: opacity(.7);
-        }
-
-        .socials_item:nth-of-type(4)>a {
-            background-image: url("../images/lckph-m2ddp.svg");
-            background-repeat: no-repeat;
-            background-position: -158px 0px;
-            -webkit-filter: opacity(.7);
-            filter: opacity(.7);
-        }
-
-        .socials_item>a:hover {
-            -webkit-filter: opacity(1);
-            filter: opacity(1);
+        .icon:hover {
+            fill: #341af6;
         }
 
         .copywriting {
+             font-family: 'Arial';
+             font-size: 12px;
             width: 100%;
             display: -webkit-box;
             display: -webkit-flex;
