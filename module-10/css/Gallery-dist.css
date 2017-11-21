@@ -235,7 +235,6 @@
             margin: 20px 0;
             overflow: hidden;
         }
-        /*_________________________Сложности_______________________*/
 
         .zoom:hover {
             display: block;
@@ -255,7 +254,6 @@
             transform: translate(-50%, -50%);
             cursor: none;
         }
-        /*_________________________Сложности_______________________*/
 
         .to-top {
             position: fixed;
@@ -408,7 +406,7 @@
                 width: 75%;
             }
 
-            .menu-main {
+            .header__menu-main {
                 display: -webkit-box;
                 display: -webkit-flex;
                 display: -ms-flexbox;
@@ -430,7 +428,7 @@
                 color: #fff;
             }
 
-            .left-m {
+            .header__menu-main__menu__left-m {
                 height: 32px;
                 display: -webkit-box;
                 display: -webkit-flex;
@@ -445,7 +443,7 @@
                 font-size: 24px;
             }
 
-            .right-m {
+            .header__menu-main__menu__right-m {
                 height: 32px;
                 display: -webkit-box;
                 display: -webkit-flex;
@@ -460,7 +458,7 @@
                 font-size: 24px;
             }
 
-            .logo {
+            .header__logo {
                 font-family: 'Dorsa';
                 font-size: 43px;
                 position: inherit;
@@ -485,7 +483,7 @@
             }
 
 
-            .menu {
+            .header__menu-left__menu {
                 width: 255px;
                 padding: 0;
                 position: relative;
@@ -503,7 +501,7 @@
                 justify-content: center;
             }
 
-            .menu-r {
+            .header__menu-main__menu-r {
                 width: 255px;
                 padding-left: 0;
                 display: -webkit-box;
@@ -521,7 +519,7 @@
             }
 
 
-            ul.submenu {
+            ul.header__menu-main__menu__right-m__color1__submenu {
                 font-family: 'Pathway Gothic One';
                 font-size: 17px;
                 line-height: 21px;
@@ -536,7 +534,7 @@
                 z-index: 2;
             }
 
-            .color1:before {
+            .header__menu-main__menu__right-m__color1:before {
                 display: none;
                 content: '';
                 position: absolute;
@@ -634,7 +632,7 @@
                 width: 46.875%;
             }
 
-            .menu-main {
+            .header__menu-main {
                 display: -webkit-box;
                 display: -webkit-flex;
                 display: -ms-flexbox;
@@ -656,7 +654,7 @@
                 color: #fff;
             }
 
-            .left-m {
+            .header__menu-main__menu__left-m {
                 height: 25px;
                 display: -webkit-box;
                 display: -webkit-flex;
@@ -671,7 +669,7 @@
                 font-size: 20px;
             }
 
-            .right-m {
+            .header__menu-main__menu__right-m {
                 height: 25px;
                 display: -webkit-box;
                 display: -webkit-flex;
@@ -686,7 +684,7 @@
                 font-size: 20px;
             }
 
-            .logo {
+            .header__logo {
                 font-family: 'Dorsa';
                 font-size: 33px;
                 position: inherit;
@@ -711,7 +709,7 @@
             }
 
 
-            .menu {
+            .header__menu-left__menu {
                 width: 222px;
                 padding: 0;
                 position: relative;
@@ -729,7 +727,7 @@
                 justify-content: center;
             }
 
-            .menu-r {
+            .header__menu-main__menu-r {
                 width: 222px;
                 padding-left: 0;
                 display: -webkit-box;
@@ -747,7 +745,7 @@
             }
 
 
-            ul.submenu {
+            ul.header__menu-main__menu__right-m__color1__submenu {
                 font-family: 'Pathway Gothic One';
                 font-size: 14px;
                 line-height: 21px;
@@ -762,7 +760,7 @@
                 z-index: 2;
             }
 
-            .color1:before {
+            .header__menu-main__menu__right-m__color1:before {
                 display: none;
                 content: '';
                 position: absolute;
@@ -863,14 +861,14 @@
                 justify-content: center;
             }
 
-            .bottom-txt {
+            .bottom-gallery__bottom-txt {
                 font-family: 'Open Sans Condensed';
                 font-size: 14px;
                 line-height: 27px;
                 margin-left: 60px;
             }
 
-            .bottom-txt1 {
+            .bottom-gallery__bottom-txt1 {
                 font-family: 'Open Sans Condensed';
                 padding-left: 0px;
                 font-size: 14px;
@@ -878,7 +876,7 @@
             }
 
 
-            .bottom-txt2 {
+            .bottom-gallery__bottom-txt2 {
                 font-family: 'Open Sans Condensed';
                 line-height: 27px;
                 font-size: 14px;
@@ -897,13 +895,13 @@
                 -ms-flex-pack: distribute;
                 justify-content: space-around;
             }
-            .telephone {
+            .bottom-gallery__bottom-txt2__telephone {
                 font-family: 'Arial';
                 font-size: 10px;
                 margin-left: 50px;
             }
 
-            .email {
+            .bottom-gallery__bottom-txt2__email {
                 font-family: 'Arial';
                 font-size: 10px;
             }
@@ -923,7 +921,7 @@
                 color: #fff;
                 padding-bottom: 22px;
             }
-            .telephone:before {
+            .bottom-gallery__bottom-txt2__telephone:before {
                 content: '';
                 background: url("../images/phone-min.png") no-repeat;
                 position: absolute;
@@ -932,7 +930,7 @@
                 height: 17px;
                 margin: 5px 0 0 -20px;
             }
-            .email:before {
+            .bottom-gallery__bottom-txt2__email:before {
                 content: '';
                 background: url("../images/email-min.png") no-repeat;
                 position: absolute;
