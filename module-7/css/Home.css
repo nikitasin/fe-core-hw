@@ -423,7 +423,7 @@ ul.menu li:hover a.color1:before {
 
 .to-top {
     position: fixed;
-    right: 185px;
+   left: calc(50% + 476px);
     bottom: 250px;
     width: 30px;
     height: 30px;

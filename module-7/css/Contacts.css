@@ -291,7 +291,7 @@ textarea {
 
 .to-top {
     position: fixed;
-    right: 175px;
+    left: calc(50% + 476px);
     bottom: 250px;
     width: 30px;
     height: 30px;

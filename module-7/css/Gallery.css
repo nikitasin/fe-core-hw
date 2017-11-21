@@ -229,7 +229,7 @@
 
         .to-top {
             position: fixed;
-            right: 13%;
+            left: calc(50% + 476px);
             bottom: 250px;
             width: 30px;
             height: 30px;
@@ -237,7 +237,6 @@
             background: #38afe5;
             color: #fff;
             z-index: 2;
-            right: cal
         }
 
         .pointer3 {
@@ -483,10 +482,11 @@
                 margin: 20px 0;
                 overflow: hidden;
                 cursor: pointer;
-         
+            }
+
             .to-top {
                 position: fixed;
-                right: 3%;
+                left: calc(50% + 355px);
                 bottom: 250px;
                 width: 28px;
                 height: 28px;
@@ -494,7 +494,7 @@
                 background: #38afe5;
                 color: #fff;
             }
-         
+
             img {
                 display: inline-block;
                 margin-bottom: 40px;
@@ -511,7 +511,6 @@
                 display: flex;
                 justify-content: space-between;
             }
-            
         }
 
         @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -649,7 +648,7 @@
 
             .to-top {
                 position: fixed;
-                right: 3%;
+                left: calc(50% + 210px);
                 bottom: 250px;
                 width: 28px;
                 height: 28px;

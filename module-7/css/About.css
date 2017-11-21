@@ -369,7 +369,7 @@ hr {
 
 .to-top {
     position: fixed;
-    right: 180px;
+    left: calc(50% + 476px);
     bottom: 300px;
     width: 30px;
     height: 30px;
