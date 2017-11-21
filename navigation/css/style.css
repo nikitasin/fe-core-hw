@@ -1,0 +1,39 @@
+body {
+    height: 100%;
+    background: url("../images/CA.jpg");
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 7px 0;
+}
+
+.info > a {
+    font-size: 17px;
+}
+
+a:hover {
+    color: orange;
+}
+
+.info > a:hover {
+    color: darkred;
+}
