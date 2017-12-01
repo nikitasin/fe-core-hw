@@ -3,7 +3,7 @@
 body {
   margin: 0;
   height: 100%;
-  background: url("../images/57.png");
+  background: url("images/57.png");
   background-size: cover;
 }
 
@@ -290,22 +290,22 @@ ul {
   }
   &:nth-of-type(1) > a {
     background-position: -2px 0px;
-    background-image: url("../images/51.png");
+    background-image: url("images/51.png");
     filter: opacity(0.7);
   }
   &:nth-of-type(2) > a {
     background-position: -52px 0px;
-    background-image: url("../images/51.png");
+    background-image: url("images/51.png");
     filter: opacity(0.7);
   }
   &:nth-of-type(3) > a {
     background-position: -106px 0px;
-    background-image: url("../images/51.png");
+    background-image: url("images/51.png");
     filter: opacity(0.7);
   }
   &:nth-of-type(4) > a {
     background-position: -158px 0px;
-    background-image: url("../images/51.png");
+    background-image: url("images/51.png");
     filter: opacity(0.7);
   }
   > a:hover {
